@@ -14,6 +14,14 @@ int main(void){
 	scanf("%d",&a);
 	printf("두번쨰 숫자: ");
 	scanf("%d",&b);
+
+	int result;
+	        switch(c){
+			case 1: result=a+b; break;
+			case 2: result=a-b; break;
+			case 3: result=a*b; break;
+		 }
+	printf("결과: %d",result);
 }
 
 
