@@ -9,7 +9,11 @@ int main(void){
 	printf("3. 곱셈\n");
 	printf("입력: ");
 	scanf("%d",&c);
-
+	
+	printf("첫 숫자: ");
+	scanf("%d",&a);
+	printf("두번쨰 숫자: ");
+	scanf("%d",&b);
 }
 
 
